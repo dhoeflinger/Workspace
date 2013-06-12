@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+    
+    
+    <EditText  
+    	android:id="@+id/top_text_box"
+        android:inputType="text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+	</EditText>
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        >
+        
+    </ListView>
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@android:color/black"
+        >
+        
+    </View>
+    
+    
+    <LinearLayout 
+	    android:id= "@+id/buttonholder"
+	    android:layout_width= "fill_parent"
+	    android:layout_height = "wrap_content"
+	    android:orientation="horizontal">
+
+	    
+	    <Button 
+	        android:id="@+id/button1"
+	        android:layout_width = "0dip"
+	        android:layout_height = "wrap_content"
+	        android:layout_weight="1"
+	        android:text="Button 1"
+	        >
+	        
+	    </Button>
+
+	    <Button 
+	        android:id="@+id/button2"
+	        android:layout_width = "0dip"
+	        android:layout_height = "wrap_content"
+	        android:layout_weight="1"
+	        android:text="Button 2"
+	        >
+	        
+	    </Button>
+	    	 
+	    	    	    
+	</LinearLayout>
+   
+</LinearLayout>
